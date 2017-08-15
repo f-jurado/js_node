@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7, user-scalable=0"/> <!--320-->
+		<link rel="stylesheet" type="text/css" href="stylewinner.css">
+		<title>Game Over</title>
+		<script src="jquery-2.1.0.js"></script>
+		<script type="text/javascript"></script>
+	</head>
+	<body>
+	<script>
+	function getUrlVars() {
+		var vars = {};
+		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+		vars[key] = value;
+		});
+		return vars;
+	}
+	$(function(){
+		var myvar= getUrlVars();
+		$('h1').html("The winner is: " + myvar['winner']);
+	});
+	</script>
+	<h1>Hi This is a Test</h1>
+	
+	</body>
+</html>

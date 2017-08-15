@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login </title>
+<script src="jquery-2.1.0.js"></script>
+<script>
+function go(){
+	window.location='http://cslinux.utm.utoronto.ca:10048/control.html?user='+ $('#user').val();
+}
+</script>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Welcome to Highway Showdown</h1>
+<p> Please enter name to continue</p>
+<input id='user' />
+<button onclick="go();">Go</button>
+
+</body>
+</html>

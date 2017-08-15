@@ -1,0 +1,112 @@
+body{text-align: center;background: url(assets/displayback.png) no-repeat;background-size:100%;float:inherit; border:0;}
+#select{
+	background: url(assets/selectmode.png) no-repeat;
+	border: 0;
+	width:150px;
+	height:33px;
+	background-size: 100%
+}
+#chase{
+	background: url(assets/chase.png) no-repeat;
+	width:150px;
+	height:33px;
+	border: 0;
+	background-size: 100%
+}
+#race{
+	background: url(assets/race.png) no-repeat;
+	width:150px;
+	height:33px;
+	border: 0;
+	background-size: 100%
+}
+#elimination{
+	background: url(assets/elimination.png) no-repeat;
+	width:150px;
+	height:33px; 
+	border: 0;
+	background-size: 100%
+}
+#player4{
+	background: url(assets/4.png) no-repeat;
+	width:150px; 
+	height:150px; 
+	border: 0;
+	background-size: 100%
+}
+#player3{
+	background: url(assets/3.png) no-repeat;
+	width:150px; 
+	height:150px; 
+	border: 0;
+	background-size: 100%
+}
+#player2{
+	background: url(assets/2.png) no-repeat;
+	width:150px; 
+	height:150px; 
+	border: 0;
+	background-size: 100%
+}
+#player1{
+	background: url(assets/1.png) no-repeat;
+	width:150px; 
+	height:150px; 
+	border: 0;
+	background-size: 100%
+}
+#sendSocket{
+	background: url(assets/playersselected.png) no-repeat;
+	width:150px; 
+	height:33px; 
+	border: 0;
+	background-size: 100%
+}
+#carone{ 
+	border: 0;
+	background-size: 100%
+	text-align: center;
+}
+#cartwo{
+	border: 0;
+	text-align: center;
+}
+#carthree{
+	border: 0;
+	text-align: center;
+	
+}
+#carfour{
+	text-align: center;
+	border: 0;
+}
+#timer{
+	border:1px solid black;
+	background: url(assets/displayback.png) no-repeat;
+	opacity: .8;
+}
+#road{
+	border:1px solid black;
+}
+#playerstag{
+	text-align:center;
+	color: rgb(0,178,149);
+	font-size:150%;
+	
+}
+#start{
+	background: url(assets/start.png) no-repeat;
+	border: 0;
+	width:150px;
+	height: 33px;
+	background-size: 100%
+}
+#waiting{
+	text-align:center;
+	color: rgb(61,49,91);
+	font-size:150%;
+}#info{
+	text-align: center;
+	color: rgb(61,49,91);
+	font-size:150%;
+}
